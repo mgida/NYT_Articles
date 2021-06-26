@@ -1,0 +1,39 @@
+name: nyt_articles
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  chopper:
+  provider:
+  json_annotation:
+  logging:
+  cached_network_image:
+  google_fonts:
+  intl:
+  date_format:
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner:
+  chopper_generator:
+  flutter_driver:
+
+
+
+flutter:
+  uses-material-design: true
+
